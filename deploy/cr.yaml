@@ -246,3 +246,12 @@ spec:
         schedule: "0 0 * * *"
         keep: 5
         storageName: fs-pvc
+
+
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: pod-limit
+spec:
+  hard:
+    pods: "10"
