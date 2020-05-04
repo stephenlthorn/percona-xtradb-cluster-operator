@@ -254,4 +254,4 @@ metadata:
   name: pod-limit
 spec:
   hard:
-    pods: "10"
+    pods: "12"
