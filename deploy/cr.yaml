@@ -40,8 +40,8 @@ spec:
 #      supplementalGroups: [1001]
     resources:
       requests:
-        memory: 500M
-        cpu: 500m
+        memory: 512Mi
+        cpu: 450m
 #        ephemeral-storage: 1Gi
 #      limits:
 #        memory: 1G
@@ -96,8 +96,8 @@ spec:
 #    schedulerName: "default"
     resources:
       requests:
-        memory: 500M
-        cpu: 500m
+        memory: 256Mi
+        cpu: 450m
 #      limits:
 #        memory: 1G
 #        cpu: 700m
@@ -253,4 +253,4 @@ metadata:
   name: pod-limit
 spec:
   hard:
-    pods: "12"
+    pods: "14"
