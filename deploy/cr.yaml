@@ -40,8 +40,8 @@ spec:
 #      supplementalGroups: [1001]
     resources:
       requests:
-        memory: 450M
-        cpu: 450m
+        memory: 500M
+        cpu: 500m
 #        ephemeral-storage: 1Gi
 #      limits:
 #        memory: 1G
@@ -96,8 +96,8 @@ spec:
 #    schedulerName: "default"
     resources:
       requests:
-        memory: 450M
-        cpu: 450m
+        memory: 500M
+        cpu: 500m
 #      limits:
 #        memory: 1G
 #        cpu: 700m
